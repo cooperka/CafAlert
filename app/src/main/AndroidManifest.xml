@@ -11,20 +11,30 @@
         android:icon="@drawable/ic_launcher"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".TabClass" android:configChanges="orientation|keyboardHidden">
+        <activity
+            android:name=".TabClass"
+            android:configChanges="orientation|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".FirstGroup" android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".FirstGroup"
+            android:configChanges="orientation|keyboardHidden" />
 
-        <activity android:name=".CafList" android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".CafList"
+            android:configChanges="orientation|keyboardHidden" />
 
-        <activity android:name=".Menu" android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".Menu"
+            android:configChanges="orientation|keyboardHidden" />
 
-        <activity android:name=".Alerts" android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".Alerts"
+            android:configChanges="orientation|keyboardHidden" />
 
     </application>
 

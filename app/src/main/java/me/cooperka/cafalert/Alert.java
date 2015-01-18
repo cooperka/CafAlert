@@ -1,32 +1,33 @@
 package me.cooperka.cafalert;
 
-public class Alert
-{
-	private String name = "";
-	private boolean active = false;
+public class Alert {
 
-	public void setStuff(String Name, boolean Active) {
-		this.name = Name;
-		this.active = Active;
-	}
+    private String name = "";
+    private boolean active = false;
 
-	public void setStuff(String Name) {
-		this.name = Name;
-	}
+    public void setStuff(String Name, boolean Active) {
+        this.name = Name;
+        this.active = Active;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setStuff(String Name) {
+        this.name = Name;
+    }
 
-	public void setName(String Name) {
-		this.name = Name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public boolean getActive() {
-		return active;
-	}
+    public void setName(String Name) {
+        this.name = Name;
+    }
 
-	public void setActive(boolean Active) {
-		this.active = Active;
-	}
+    public boolean getActive() {
+        return active;
+    }
+
+    public void setActive(boolean Active) {
+        this.active = Active;
+    }
+
 }
