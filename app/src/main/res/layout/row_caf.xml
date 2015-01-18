@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/bkgd"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:padding="6dp"
+>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:paddingTop="20dp"
+		android:paddingBottom="20dp"
+	>
+		<TextView
+			android:id="@+id/name"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:textStyle="bold"
+			android:textSize="22sp"
+			android:textColor="#DDDDDD"
+			android:text="Name"
+			android:gravity="left"
+			android:paddingLeft="20dp"
+		/>
+		<TextView
+			android:id="@+id/hours"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:textSize="18sp"
+			android:textColor="#DDDDDD"
+			android:text="(Hours)"
+			android:gravity="right"
+			android:paddingRight="20dp"
+		/>
+	</LinearLayout>
+</LinearLayout>

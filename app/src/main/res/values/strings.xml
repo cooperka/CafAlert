@@ -1,3 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">CafAlert</string>
+
+    <string name="tab_caf">Menus</string>
+    <string name="tab_alert">Alerts</string>
+
+    <string name="empty">Loading</string>
+
 </resources>
